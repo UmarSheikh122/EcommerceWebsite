@@ -12,6 +12,10 @@ const Product = ({product}) => {
                     <Typography variant="h5" gutterBottom>
                         {product.name}
                     </Typography>
+                    <Typography variant="h5" gutterBottom>
+                        {product.name} 
+                        {/* myChange  */}
+                    </Typography>
                     <Typography variant="h5">
                         {product.price}
                     </Typography>
