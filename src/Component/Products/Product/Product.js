@@ -13,8 +13,7 @@ const Product = ({product}) => {
                         {product.name}
                     </Typography>
                     <Typography variant="h5" gutterBottom>
-                        {product.name} 
-                        {/* myChange  */}
+                        {product.name}
                     </Typography>
                     <Typography variant="h5">
                         {product.price}
@@ -23,6 +22,11 @@ const Product = ({product}) => {
                 <div>
                     <Typography variant="body2" color="textSecondary">
                         {product.description}
+                    </Typography>
+                </div>
+                <div>
+                    <Typography variant="body2" color="textSecondary">
+                        {product.AvailableChange}
                     </Typography>
                 </div>
            </CardContent>
